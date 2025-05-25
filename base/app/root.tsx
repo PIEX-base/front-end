@@ -10,6 +10,8 @@ import {
 import type { Route } from "./+types/root";
 import "./app.css";
 import { Header } from "./components/Header.jsx";
+import { Footer } from "./components/Footer.jsx";
+import { error } from "console";
 
 export const links: Route.LinksFunction = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -47,6 +49,7 @@ export default function App() {
     <div className=" overflow-x-hidden ">
       <Header />
       <Outlet />
+      <Footer />
     </div>
   );
 }
@@ -64,6 +67,7 @@ export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {
         : error.statusText || details;
   } else if (import.meta.env.DEV && error && error instanceof Error) {
     details = error.message;
+    error.message;
     error.message;
     stack = error.stack;
   }
