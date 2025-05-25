@@ -9,5 +9,7 @@ export const QuemSomos = () => {
         crescimento para crianças e jovens em situação de vulnerabilidade.
       </p>
     </div>
+    
+    
   );
 };
