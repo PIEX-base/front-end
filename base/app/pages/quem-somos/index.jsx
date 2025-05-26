@@ -4,7 +4,7 @@ import Imagem3 from "../../img/home/quemsomos_imagem3.jpg";
 import Imagem4 from "../../img/home/quemsomos_imagem4.jpg";
 export const QuemSomos = () => {
   return (
-    <div className="flex flex-col  min-h-screen text-black px-24 pt-13 ">
+    <div className="flex flex-col  min-h-screen text-black px-24 pt-12 ">
       <h1 className="text-4xl font-bold mb-4 flex justify-start">Quem Somos Nós?</h1>
       <div className="flex flex-col-reverse md:flex-row items-center gap-8 mb-8">
         <div className="md:w-1/2">
