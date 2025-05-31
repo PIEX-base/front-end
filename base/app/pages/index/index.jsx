@@ -1,6 +1,7 @@
 import criancasImage from "../../img/home/criancas.png";
+import criancasImage2 from "../../img/home/criancas2.png";
 import { HandAndHeartSVG } from "../../img/home/handAndHeart";
-import { HandsAroundHeartSVG, HandShakeSVG } from "../../img/home/handShake";
+import { HandShakeSVG } from "../../img/home/handShake";
 import { HeartShapedHandSVG } from "../../img/home/heartShapedHand";
 
 export const Index = () => {
@@ -55,7 +56,7 @@ export const Index = () => {
 
           <div className="grid md:grid-cols-3 gap-8">
             {/* Card 1 - Care/Support */}
-            <div className="bg-yellow-400 rounded-3xl p-8 text-center">
+            <div className="bg-yellow rounded-3xl p-8 text-center">
               <div className="flex justify-center mb-6">
                 <HandAndHeartSVG />
               </div>
@@ -67,7 +68,7 @@ export const Index = () => {
             </div>
 
             {/* Card 2 - Partnership */}
-            <div className="bg-yellow-400 rounded-3xl p-8 text-center">
+            <div className="bg-yellow rounded-3xl p-8 text-center">
               <div className="flex justify-center mb-6">
                 <HeartShapedHandSVG />
               </div>
@@ -79,7 +80,7 @@ export const Index = () => {
             </div>
 
             {/* Card 3 - Community */}
-            <div className="bg-yellow-400 rounded-3xl p-8 text-center">
+            <div className="bg-yellow rounded-3xl p-8 text-center">
               <div className="flex justify-center mb-6">
                 <HandShakeSVG size={100} />
               </div>
@@ -93,6 +94,7 @@ export const Index = () => {
         </div>
       </section>
 
+      {/* Statistics Section */}
       <section className="bg-primary py-16 lg:py-24">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -199,6 +201,105 @@ export const Index = () => {
                   atendimentos médicos
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Become a Supporter Section */}
+      <section className="py-16 lg:pt-20 lg:pb-8">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="bg-yellow rounded-3xl p-8 lg:p-12">
+            <div className="grid lg:grid-cols-2 gap-8 items-center">
+              {/* Left Content */}
+              <div className="space-y-6 bg-zinc-0 flex flex-col items-center lg:items-start">
+                <h2 className="text-3xl lg:text-4xl font-bold text-gray-900">
+                  Torne-se um apoiador
+                </h2>
+                <p className="text-gray-800 leading-relaxed">
+                  Vestibulum ante ipsum primis in faucibus orci luctus et
+                  ultrices posuere cubilia curae; Vivamus neque nibh, tristique
+                  nec urna a, porttitor venenatis neque. Pellentesque commodo,
+                  quam a luctus elementum, quam metus mollis lacus
+                </p>
+                <div className="flex flex-col sm:flex-row gap-4">
+                  <button className="bg-gray hover:bg-gray-700 text-white px-8 py-3 rounded-full">
+                    Apoie agora
+                  </button>
+
+                  <button
+                    variant="outline"
+                    className="border-gray-800 border text-gray-800 hover:bg-gray hover:text-white px-8 py-3 rounded-full">
+                    Saiba mais
+                  </button>
+                </div>
+              </div>
+
+              {/* Right Content - Circular Image */}
+              <div className="flex justify-center lg:justify-center">
+                <div className="w-64 h-64 lg:w-92 lg:h-92 rounded-full overflow-hidden">
+                  <img
+                    className="object-cover"
+                    src={criancasImage2}
+                    alt="Crianças felizes"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Partners */}
+      <section className="py-16 lg:py-24">
+        <div className="max-w-7xl mx-auto px-6">
+          <h2 className="text-3xl lg:text-4xl font-bold text-center text-gray-900 mb-16">
+            Nossos parceiros
+          </h2>
+
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center justify-items-center">
+            {/* Partner 1 */}
+            <div className="flex items-center space-x-3">
+              <div className="w-8 h-8 bg-purple-600 rounded-lg flex items-center justify-center">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="white">
+                  <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+                </svg>
+              </div>
+              <span className="text-xl font-bold text-gray-900">Logoipsum</span>
+            </div>
+
+            {/* Partner 2 */}
+            <div className="flex items-center space-x-3">
+              <div className="w-8 h-8 bg-red-500 rounded-full flex items-center justify-center">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="white">
+                  <circle cx="12" cy="12" r="3" />
+                  <path d="M12 1v6m0 6v6m11-7h-6m-6 0H1" />
+                </svg>
+              </div>
+              <div>
+                <div className="text-xl font-bold text-gray-900">Logoipsum</div>
+                <div className="text-sm text-gray-500">Foundation</div>
+              </div>
+            </div>
+
+            {/* Partner 3 */}
+            <div className="flex items-center space-x-3">
+              <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="white">
+                  <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" />
+                </svg>
+              </div>
+              <span className="text-xl font-bold text-gray-900">Logoipsum</span>
+            </div>
+
+            {/* Partner 4 */}
+            <div className="flex items-center space-x-3">
+              <div className="w-8 h-8 bg-green-500 rounded-lg flex items-center justify-center">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="white">
+                  <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+                </svg>
+              </div>
+              <span className="text-xl font-bold text-gray-900">Logoipsum</span>
             </div>
           </div>
         </div>
