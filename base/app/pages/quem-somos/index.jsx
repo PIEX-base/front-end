@@ -36,13 +36,11 @@ para que sejam protagonistas de suas histórias e instrumentos de transformaçã
             />
           </div>
           <div className="md:w-1/2 order-2">
-            <h2 className="text-3xl font-bold mb-4">O que fazemos</h2>
+            <h2 className="text-3xl font-bold mb-4">Qual o nosso propósito?</h2>
             <p className="text-lg">
-              Nossa ONG atende hoje, principalmente, a comunidade do Rato,
-              localizado no bairro Santo Teresinha, proporcionando às crianças e
-              aos adolescentes grandes oportunidades de esporte. Nossos atletas
-              já participaram de várias competições de jiu-jitsu e todos eles
-              trouxeram de volta casa medalhas e a esperança de uma vida melhor.
+            Manifestar o Reino de Deus por meio do serviço, semeando esperança,
+dignidade e propósito na vida das crianças da Comunidade do Reino, 
+acreditando que cada uma carrega em si o potencial para impactar o mundo ao seu redor.
             </p>
           </div>
         </div>
