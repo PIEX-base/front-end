@@ -12,10 +12,10 @@ export const QuemSomos = () => {
           <div className="md:w-1/2 order-2 md:order-1">
             <h2 className="text-3xl font-bold mb-4">Nossa missão</h2>
             <p className="text-lg">
-              Somos uma ONG não governamental que busca servir a cidade de Juiz
-              de Fora em Minas Gerais. Nossa missão é manifestar o Reino de Deus
-              através do serviço social, esporte e educação, criando
-              oportunidades para crianças e jovens de comunidades.
+            Servir a Comunidade do Reino com ações práticas de amor e cuidado, oferecendo 
+atividades que promovemo desenvolvimento integral de crianças e famílias : 
+como esportes, música, discipulado, educação e terapia com o objetivo de empoderá-los 
+para que sejam protagonistas de suas histórias e instrumentos de transformação onde vivem.
             </p>
           </div>
           <div className="flex justify-center md:w-1/2 order-1 md:order-2">
