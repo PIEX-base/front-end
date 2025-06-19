@@ -47,13 +47,9 @@ acreditando que cada uma carrega em si o potencial para impactar o mundo ao seu 
 
         <div className="flex flex-col md:flex-row items-center justify-center gap-8 mb-16">
           <div className="md:w-1/2 order-2 md:order-1">
-            <h2 className="text-3xl font-bold mb-4">Temos também</h2>
+            <h2 className="text-3xl font-bold mb-4">Como atuamos?</h2>
             <p className="text-lg">
-              Nossa ONG atende hoje, principalmente, a comunidade do Rato,
-              localizado no bairro Santo Teresinha, proporcionando às crianças e
-              aos adolescentes grandes oportunidades de esporte. Nossos atletas
-              já participaram de várias competições de jiu-jitsu e todos eles
-              trouxeram de volta casa medalhas e a esperança de uma vida melhor.
+            Nossa ONG atua, principalmente, na comunidade do Rato, situada no bairro Santo Teresinha. Atualmente, 25 famílias são beneficiadas com a entrega regular de cestas básicas. Além disso, oferecemos às crianças e adolescentes diversas oportunidades de desenvolvimento por meio do esporte. Nossos atletas já participaram de várias competições de jiu-jitsu, conquistando medalhas e, acima de tudo, renovando a esperança de um futuro melhor. As famílias atendidas também têm acesso a atendimentos terapêuticos e reforço escolar, ampliando o cuidado e o apoio social que oferecemos.
             </p>
           </div>
           <div className="flex justify-center md:w-1/2 order-1 md:order-2">
