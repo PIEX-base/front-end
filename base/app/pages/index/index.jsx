@@ -92,10 +92,17 @@ H
               <div className="flex justify-center mb-6">
                 <HandShakeSVG size={100} />
               </div>
+              <h2 className="text-3xl font-bold mb-4">Atualmente</h2>
               <p className="text-gray-800 leading-relaxed">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-                a libero risus. Nullam sodales nisl sit amet mauris mattis
-                sollicitudin.
+              A Base é uma ONG, sem fins
+lucrativos e sem cunho político
+partidário que atua como um braço
+social da A Igreja do Brasil. É uma
+extensão das missões realizada pela
+igreja, atendendo com maior
+prioridade a Comunidade do Reino,
+sendo o seu principal foco projetos
+com crianças e adolescentes.
               </p>
             </div>
           </div>
