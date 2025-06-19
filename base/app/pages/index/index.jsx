@@ -61,9 +61,9 @@ export const Index = () => {
                 <HandAndHeartSVG />
               </div>
               <p className="text-gray-800 leading-relaxed">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-                a libero risus. Nullam sodales nisl sit amet mauris mattis
-                sollicitudin.
+                Nós da A Base queremos ser agentes de transformação na Comunidade do Reino, revelando o amor de Deus e
+ promovendo uma geração de crianças e famílias fortalecidas, conscientes de seu valor, identidade e potencial.
+
               </p>
             </div>
 
