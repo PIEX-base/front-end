@@ -72,10 +72,18 @@ export const Index = () => {
               <div className="flex justify-center mb-6">
                 <HeartShapedHandSVG />
               </div>
+              <h2 className="text-3xl font-bold mb-4">História</h2>
               <p className="text-gray-800 leading-relaxed">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-                a libero risus. Nullam sodales nisl sit amet mauris mattis
-                sollicitudin.
+              A Base surgiu no ano de 2015, com o
+movimento Primitivos. inicialmente
+com o mesmo nome. A intenção era
+desenvolver projetos com princípios
+de igualdade, unidade, perdão e
+reconciliação, hospitalidade aos que
+sofrem e contracultura sexual. Tendo
+como foco comunidades em situação
+de vulnerabilidade.
+H
               </p>
             </div>
 
@@ -123,7 +131,7 @@ export const Index = () => {
                   </svg>
                 </div>
                 <div className="text-2xl lg:text-3xl font-bold text-white mb-1">
-                  +500
+                  +25
                 </div>
                 <div className="text-sm text-gray-300">crianças ajudadas</div>
               </div>
@@ -146,7 +154,7 @@ export const Index = () => {
                   </svg>
                 </div>
                 <div className="text-2xl lg:text-3xl font-bold text-white mb-1">
-                  +100
+                  +20
                 </div>
                 <div className="text-sm text-gray-300">famílias atendidas</div>
               </div>
@@ -170,7 +178,7 @@ export const Index = () => {
                   </svg>
                 </div>
                 <div className="text-2xl lg:text-3xl font-bold text-white mb-1">
-                  +3000
+                  +300
                 </div>
                 <div className="text-sm text-gray-300">
                   cestas básicas distribuídas
@@ -195,10 +203,10 @@ export const Index = () => {
                   </svg>
                 </div>
                 <div className="text-2xl lg:text-3xl font-bold text-white mb-1">
-                  +2000
+                  +10
                 </div>
                 <div className="text-sm text-gray-300">
-                  atendimentos médicos
+                  reforços escolares
                 </div>
               </div>
             </div>
@@ -217,11 +225,7 @@ export const Index = () => {
                   Torne-se um apoiador
                 </h2>
                 <p className="text-gray-800 leading-relaxed">
-                  Vestibulum ante ipsum primis in faucibus orci luctus et
-                  ultrices posuere cubilia curae; Vivamus neque nibh, tristique
-                  nec urna a, porttitor venenatis neque. Pellentesque commodo,
-                  quam a luctus elementum, quam metus mollis lacus
-                </p>
+                Junte-se à Base e faça parte da transformação na vida de muitas crianças e suas famílias!                </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <button className="bg-gray hover:bg-gray-700 text-white px-8 py-3 rounded-full">
                     Apoie agora
