@@ -11,7 +11,6 @@ import type { Route } from "./+types/root";
 import "./app.css";
 import { Header } from "./components/Header.jsx";
 import { Footer } from "./components/Footer.jsx";
-import { error } from "console";
 
 export const links: Route.LinksFunction = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
