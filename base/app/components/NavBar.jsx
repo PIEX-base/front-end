@@ -11,11 +11,11 @@ export const NavBar = () => {
         </span>
       </NavLink>
 
-      <NavLink>
+      <NavLink to={"/projetos"}>
         <span
           href="#"
           className="text-white hover:text-gray-200 hover:underline transition-colors">
-          Notícias
+          Projetos
         </span>
       </NavLink>
 
