@@ -1,4 +1,3 @@
-
 import {
   Heart,
   Users,
@@ -29,7 +28,6 @@ export default function Projetos() {
               <p className="text-lg text-gray-600 max-w-md">
                 Conheça as iniciativas que transformam vidas na Comunidade do
                 Reino através do amor e cuidado
-
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4">
@@ -76,7 +74,6 @@ export default function Projetos() {
                 Oferecemos apoio educacional para crianças e adolescentes,
                 ajudando no desenvolvimento acadêmico e pessoal através de aulas
                 de reforço e atividades pedagógicas.
-
               </p>
             </div>
 
@@ -230,14 +227,12 @@ export default function Projetos() {
             {/* Left Content */}
             <div>
               <h2 className="text-3xl lg:text-4xl xl:text-5xl font-bold text-white leading-tight">
-
                 Impacto dos nossos{" "}
                 <span className="text-yellow-400">projetos</span>
               </h2>
               <p className="text-gray-300 mt-4">
                 Cada projeto representa uma oportunidade de transformação e
                 esperança para nossa comunidade.
-
               </p>
             </div>
 
@@ -286,7 +281,9 @@ export default function Projetos() {
                 <div className="text-2xl lg:text-3xl font-bold text-white mb-1">
                   10
                 </div>
-                <div className="text-2xl lg:text-3xl font-bold text-white mb-1">10</div>
+                <div className="text-2xl lg:text-3xl font-bold text-white mb-1">
+                  10
+                </div>
 
                 <div className="text-sm text-gray-300">anos de impacto</div>
               </div>
