@@ -1,4 +1,4 @@
-import { LogoSVG } from "../img/home/logo";
+import { LogoSVG } from "../img/home/logo.jsx";
 import { NavBar } from "./NavBar";
 import { NavLink } from "react-router";
 

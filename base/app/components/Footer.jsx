@@ -52,7 +52,7 @@ export const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:underline">
+                <a href="/projetos" className="hover:underline">
                   Projetos
                 </a>
               </li>
@@ -91,6 +91,4 @@ export const Footer = () => {
       </div>
     </footer>
   );
-
 };
-

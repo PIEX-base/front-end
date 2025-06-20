@@ -1,5 +1,6 @@
-import Projetos from "../pages/projetos"
+import Projetos from "../pages/projetos";
 
-export default function Page() {
-  return <Projetos />
+export default function Home() {
+  return <Projetos />;
+
 }

@@ -1,10 +1,18 @@
-import { Heart, Users, BookOpen, Utensils, Stethoscope, Home } from "lucide-react"
+
+import {
+  Heart,
+  Users,
+  BookOpen,
+  Utensils,
+  Stethoscope,
+  Home,
+} from "lucide-react";
 import Imagem1 from "../../img/home/educaBase.jpg";
-import Imagem2 from "../../img/home/educaBase2.jpg"
-import Imagem3 from "../../img/home/alimentos.jpg"
-import Imagem4 from "../../img/home/consultas.jpg"
-import Imagem5 from "../../img/home/judo.jpeg"
-import Imagem6 from "../../img/home/voluntario.jpg"
+import Imagem2 from "../../img/home/educaBase2.jpg";
+import Imagem3 from "../../img/home/alimentos.jpg";
+import Imagem4 from "../../img/home/consultas.jpg";
+import Imagem5 from "../../img/home/judo.jpeg";
+import Imagem6 from "../../img/home/voluntario.jpg";
 export default function Projetos() {
   return (
     <div className="min-h-screen">
@@ -19,7 +27,9 @@ export default function Projetos() {
               </h1>
 
               <p className="text-lg text-gray-600 max-w-md">
-                Conheça as iniciativas que transformam vidas na Comunidade do Reino através do amor e cuidado
+                Conheça as iniciativas que transformam vidas na Comunidade do
+                Reino através do amor e cuidado
+
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4">
@@ -49,7 +59,9 @@ export default function Projetos() {
       {/* Featured Projects Section */}
       <section className="py-16 lg:py-24">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-3xl lg:text-4xl font-bold text-center text-gray-900 mb-16">Projetos em Destaque</h2>
+          <h2 className="text-3xl lg:text-4xl font-bold text-center text-gray-900 mb-16">
+            Projetos em Destaque
+          </h2>
 
           <div className="grid md:grid-cols-3 gap-8">
             {/* Project 1 - Education */}
@@ -57,10 +69,14 @@ export default function Projetos() {
               <div className="flex justify-center mb-6">
                 <BookOpen size={80} className="text-gray-800" />
               </div>
-              <h3 className="text-2xl font-bold mb-4 text-gray-900">Reforço Escolar</h3>
+              <h3 className="text-2xl font-bold mb-4 text-gray-900">
+                Reforço Escolar
+              </h3>
               <p className="text-gray-800 leading-relaxed">
-                Oferecemos apoio educacional para crianças e adolescentes, ajudando no desenvolvimento acadêmico e
-                pessoal através de aulas de reforço e atividades pedagógicas.
+                Oferecemos apoio educacional para crianças e adolescentes,
+                ajudando no desenvolvimento acadêmico e pessoal através de aulas
+                de reforço e atividades pedagógicas.
+
               </p>
             </div>
 
@@ -69,10 +85,12 @@ export default function Projetos() {
               <div className="flex justify-center mb-6">
                 <Utensils size={80} className="text-gray-800" />
               </div>
-              <h3 className="text-2xl font-bold mb-4 text-gray-900">Alimentação Solidária</h3>
+              <h3 className="text-2xl font-bold mb-4 text-gray-900">
+                Alimentação Solidária
+              </h3>
               <p className="text-gray-800 leading-relaxed">
-                Distribuição de cestas básicas para as famílias da Comunidade do Reino,
-                garantindo segurança alimentar e nutricional.
+                Distribuição de cestas básicas para as famílias da Comunidade do
+                Reino, garantindo segurança alimentar e nutricional.
               </p>
             </div>
 
@@ -81,10 +99,13 @@ export default function Projetos() {
               <div className="flex justify-center mb-6">
                 <Stethoscope size={80} className="text-gray-800" />
               </div>
-              <h3 className="text-2xl font-bold mb-4 text-gray-900">Cuidados Terapêuticos</h3>
+              <h3 className="text-2xl font-bold mb-4 text-gray-900">
+                Cuidados Terapêuticos
+              </h3>
               <p className="text-gray-800 leading-relaxed">
-              Realização de cuidados terapêuticos para as crianças e adutos,
-proporcionando bem-estar físico, emocional e promoção da saúde integral.
+                Realização de cuidados terapêuticos para as crianças e adutos,
+                proporcionando bem-estar físico, emocional e promoção da saúde
+                integral.
               </p>
             </div>
           </div>
@@ -94,8 +115,9 @@ proporcionando bem-estar físico, emocional e promoção da saúde integral.
       {/* All Projects Section */}
       <section className="py-16 lg:py-24 bg-gray-50">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-3xl lg:text-4xl font-bold text-center text-gray-900 mb-16">Todos os Nossos Projetos</h2>
-
+          <h2 className="text-3xl lg:text-4xl font-bold text-center text-gray-900 mb-16">
+            Todos os Nossos Projetos
+          </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Project Card 1 */}
             <div className="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow">
@@ -108,12 +130,18 @@ proporcionando bem-estar físico, emocional e promoção da saúde integral.
               </div>
               <div className="flex items-center mb-3">
                 <BookOpen size={24} className="text-yellow-500 mr-2" />
-                <span className="text-sm font-medium text-gray-600">EDUCAÇÃO</span>
+                <span className="text-sm font-medium text-gray-600">
+                  EDUCAÇÃO
+                </span>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-2">Educa Base</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">
+                Educa Base
+              </h3>
               <p className="text-gray-600 text-sm mb-4">
-              Atendimento de reforço escolar para crianças e jovens da comunidade,
-oferecendo apoio no aprendizado e fortalecendo o desempenho escolar.              </p>
+                Atendimento de reforço escolar para crianças e jovens da
+                comunidade, oferecendo apoio no aprendizado e fortalecendo o
+                desempenho escolar.{" "}
+              </p>
             </div>
 
             {/* Project Card 2 */}
@@ -127,15 +155,20 @@ oferecendo apoio no aprendizado e fortalecendo o desempenho escolar.            
               </div>
               <div className="flex items-center mb-3">
                 <Utensils size={24} className="text-green-500 mr-2" />
-                <span className="text-sm font-medium text-gray-600">ALIMENTAÇÃO</span>
+
+                <span className="text-sm font-medium text-gray-600">
+                  ALIMENTAÇÃO
+                </span>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-2">Arrecadação de Alimentos</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">
+                Arrecadação de Alimentos
+              </h3>
               <p className="text-gray-600 text-sm mb-4">
-              Campanhas de arrecadação de alimentos para montagem de cestas básicas,
-mobilizando a comunidade em ações de solidariedade e combate à fome.
+                Campanhas de arrecadação de alimentos para montagem de cestas
+                básicas, mobilizando a comunidade em ações de solidariedade e
+                combate à fome.
               </p>
             </div>
-
 
             {/* Project Card 3 */}
             <div className="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow">
@@ -148,11 +181,16 @@ mobilizando a comunidade em ações de solidariedade e combate à fome.
               </div>
               <div className="flex items-center mb-3">
                 <Users size={24} className="text-blue-500 mr-2" />
-                <span className="text-sm font-medium text-gray-600">FAMÍLIA</span>
+                <span className="text-sm font-medium text-gray-600">
+                  FAMÍLIA
+                </span>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-2">Apoio Familiar</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">
+                Apoio Familiar
+              </h3>
               <p className="text-gray-600 text-sm mb-4">
-                Orientação e suporte psicossocial para famílias em situação de vulnerabilidade social.
+                Orientação e suporte psicossocial para famílias em situação de
+                vulnerabilidade social.
               </p>
             </div>
 
@@ -167,13 +205,19 @@ mobilizando a comunidade em ações de solidariedade e combate à fome.
               </div>
               <div className="flex items-center mb-3">
                 <Heart size={24} className="text-red-500 mr-2" />
-                <span className="text-sm font-medium text-gray-600">ESPORTE</span>
+                <span className="text-sm font-medium text-gray-600">
+                  ESPORTE
+                </span>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">Jiu Jtsu</h3>
               <p className="text-gray-600 text-sm mb-4">
-              Aulas de Jiu-Jitsu para crianças e jovens da comunidade,
-promovendo disciplina, autocontrole e desenvolvimento físico saudável.              </p>
-              <button className="text-yellow-600 font-medium text-sm hover:text-yellow-700">Saiba mais →</button>
+                Aulas de Jiu-Jitsu para crianças e jovens da comunidade,
+                promovendo disciplina, autocontrole e desenvolvimento físico
+                saudável.{" "}
+              </p>
+              <button className="text-yellow-600 font-medium text-sm hover:text-yellow-700">
+                Saiba mais →
+              </button>
             </div>
           </div>
         </div>
@@ -186,10 +230,14 @@ promovendo disciplina, autocontrole e desenvolvimento físico saudável.        
             {/* Left Content */}
             <div>
               <h2 className="text-3xl lg:text-4xl xl:text-5xl font-bold text-white leading-tight">
-                Impacto dos nossos <span className="text-yellow-400">projetos</span>
+
+                Impacto dos nossos{" "}
+                <span className="text-yellow-400">projetos</span>
               </h2>
               <p className="text-gray-300 mt-4">
-                Cada projeto representa uma oportunidade de transformação e esperança para nossa comunidade.
+                Cada projeto representa uma oportunidade de transformação e
+                esperança para nossa comunidade.
+
               </p>
             </div>
 
@@ -200,8 +248,12 @@ promovendo disciplina, autocontrole e desenvolvimento físico saudável.        
                 <div className="flex justify-center mb-3">
                   <BookOpen size={32} className="text-white" />
                 </div>
-                <div className="text-2xl lg:text-3xl font-bold text-white mb-1">9</div>
-                <div className="text-sm text-gray-300">crianças no Educa Base</div>
+                <div className="text-2xl lg:text-3xl font-bold text-white mb-1">
+                  9
+                </div>
+                <div className="text-sm text-gray-300">
+                  crianças no Educa Base
+                </div>
               </div>
 
               {/* Beneficiaries */}
@@ -209,7 +261,9 @@ promovendo disciplina, autocontrole e desenvolvimento físico saudável.        
                 <div className="flex justify-center mb-3">
                   <Users size={32} className="text-white" />
                 </div>
-                <div className="text-2xl lg:text-3xl font-bold text-white mb-1">+120</div>
+                <div className="text-2xl lg:text-3xl font-bold text-white mb-1">
+                  +120
+                </div>
                 <div className="text-sm text-gray-300">famílias atendidas</div>
               </div>
 
@@ -218,7 +272,9 @@ promovendo disciplina, autocontrole e desenvolvimento físico saudável.        
                 <div className="flex justify-center mb-3">
                   <Heart size={32} className="text-white" />
                 </div>
-                <div className="text-2xl lg:text-3xl font-bold text-white mb-1">+20</div>
+                <div className="text-2xl lg:text-3xl font-bold text-white mb-1">
+                  +20
+                </div>
                 <div className="text-sm text-gray-300">voluntários ativos</div>
               </div>
 
@@ -227,7 +283,11 @@ promovendo disciplina, autocontrole e desenvolvimento físico saudável.        
                 <div className="flex justify-center mb-3">
                   <Home size={32} className="text-white" />
                 </div>
+                <div className="text-2xl lg:text-3xl font-bold text-white mb-1">
+                  10
+                </div>
                 <div className="text-2xl lg:text-3xl font-bold text-white mb-1">10</div>
+
                 <div className="text-sm text-gray-300">anos de impacto</div>
               </div>
             </div>
@@ -242,9 +302,12 @@ promovendo disciplina, autocontrole e desenvolvimento físico saudável.        
             <div className="grid lg:grid-cols-2 gap-8 items-center">
               {/* Left Content */}
               <div className="space-y-6 flex flex-col items-center lg:items-start">
-                <h2 className="text-3xl lg:text-4xl font-bold text-gray-900">Faça parte dos nossos projetos</h2>
+                <h2 className="text-3xl lg:text-4xl font-bold text-gray-900">
+                  Faça parte dos nossos projetos
+                </h2>
                 <p className="text-gray-800 leading-relaxed">
-                  Seja voluntário, faça uma doação ou indique alguém que precisa. Juntos podemos transformar mais vidas!
+                  Seja voluntário, faça uma doação ou indique alguém que
+                  precisa. Juntos podemos transformar mais vidas!
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <button className="bg-gray-800 hover:bg-gray-700 text-white px-8 py-3 rounded-full">
@@ -271,5 +334,5 @@ promovendo disciplina, autocontrole e desenvolvimento físico saudável.        
         </div>
       </section>
     </div>
-  )
+  );
 }

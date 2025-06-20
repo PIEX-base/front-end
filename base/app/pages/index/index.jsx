@@ -5,7 +5,6 @@ import { HandAndHeartSVG } from "../../img/home/handAndHeart";
 import { HandShakeSVG } from "../../img/home/handShake";
 import { HeartShapedHandSVG } from "../../img/home/heartShapedHand";
 
-
 export const Index = () => {
   return (
     <div className="min-h-screen">
@@ -63,9 +62,10 @@ export const Index = () => {
                 <HandAndHeartSVG />
               </div>
               <p className="text-gray-800 leading-relaxed">
-                Nós da A Base queremos ser agentes de transformação na Comunidade do Reino, revelando o amor de Deus e
- promovendo uma geração de crianças e famílias fortalecidas, conscientes de seu valor, identidade e potencial.
-
+                Nós da A Base queremos ser agentes de transformação na
+                Comunidade do Reino, revelando o amor de Deus e promovendo uma
+                geração de crianças e famílias fortalecidas, conscientes de seu
+                valor, identidade e potencial.
               </p>
             </div>
 
@@ -76,16 +76,12 @@ export const Index = () => {
               </div>
               <h2 className="text-3xl font-bold mb-4">História</h2>
               <p className="text-gray-800 leading-relaxed">
-              A Base surgiu no ano de 2015, com o
-movimento Primitivos. inicialmente
-com o mesmo nome. A intenção era
-desenvolver projetos com princípios
-de igualdade, unidade, perdão e
-reconciliação, hospitalidade aos que
-sofrem e contracultura sexual. Tendo
-como foco comunidades em situação
-de vulnerabilidade.
-H
+                A Base surgiu no ano de 2015, com o movimento Primitivos.
+                inicialmente com o mesmo nome. A intenção era desenvolver
+                projetos com princípios de igualdade, unidade, perdão e
+                reconciliação, hospitalidade aos que sofrem e contracultura
+                sexual. Tendo como foco comunidades em situação de
+                vulnerabilidade. H
               </p>
             </div>
 
@@ -96,15 +92,11 @@ H
               </div>
               <h2 className="text-3xl font-bold mb-4">Atualmente</h2>
               <p className="text-gray-800 leading-relaxed">
-              A Base é uma ONG, sem fins
-lucrativos e sem cunho político
-partidário que atua como um braço
-social da A Igreja do Brasil. É uma
-extensão das missões realizada pela
-igreja, atendendo com maior
-prioridade a Comunidade do Reino,
-sendo o seu principal foco projetos
-com crianças e adolescentes.
+                A Base é uma ONG, sem fins lucrativos e sem cunho político
+                partidário que atua como um braço social da A Igreja do Brasil.
+                É uma extensão das missões realizada pela igreja, atendendo com
+                maior prioridade a Comunidade do Reino, sendo o seu principal
+                foco projetos com crianças e adolescentes.
               </p>
             </div>
           </div>
@@ -214,9 +206,7 @@ com crianças e adolescentes.
                 <div className="text-2xl lg:text-3xl font-bold text-white mb-1">
                   +10
                 </div>
-                <div className="text-sm text-gray-300">
-                  reforços escolares
-                </div>
+                <div className="text-sm text-gray-300">reforços escolares</div>
               </div>
             </div>
           </div>
@@ -234,7 +224,9 @@ com crianças e adolescentes.
                   Torne-se um apoiador
                 </h2>
                 <p className="text-gray-800 leading-relaxed">
-                Junte-se à Base e faça parte da transformação na vida de muitas crianças e suas famílias!                </p>
+                  Junte-se à Base e faça parte da transformação na vida de
+                  muitas crianças e suas famílias!{" "}
+                </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <button className="bg-gray hover:bg-gray-700 text-white px-8 py-3 rounded-full">
                     Apoie agora
@@ -271,7 +263,6 @@ com crianças e adolescentes.
           </h2>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center justify-items-center">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center justify-items-center">
             {/* Partner 1 */}
             <div className="flex items-center space-x-3">
               <img
@@ -279,9 +270,8 @@ com crianças e adolescentes.
                 alt="Logo Parceiro"
                 className="w-8 h-8 object-contain"
               />
-            <span className="text-xl font-bold text-gray-900">A.R.D.O</span>
+              <span className="text-xl font-bold text-gray-900">A.R.D.O</span>
             </div>
-          </div>
           </div>
         </div>
       </section>
