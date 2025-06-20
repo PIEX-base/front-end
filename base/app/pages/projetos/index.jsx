@@ -6,12 +6,13 @@ import {
   Stethoscope,
   Home,
 } from "lucide-react";
-import Imagem1 from "../../img/home/educaBase.jpg";
-import Imagem2 from "../../img/home/educaBase2.jpg";
-import Imagem3 from "../../img/home/alimentos.jpg";
-import Imagem4 from "../../img/home/consultas.jpg";
-import Imagem5 from "../../img/home/judo.jpeg";
-import Imagem6 from "../../img/home/voluntario.jpg";
+import Imagem1 from "../../img/projetos/educaBase.jpg";
+import Imagem2 from "../../img/projetos/educaBase2.jpg";
+import Imagem3 from "../../img/projetos/alimentos.jpg";
+import Imagem4 from "../../img/projetos/consultas.jpg";
+import Imagem5 from "../../img/projetos/judo.jpeg";
+import Imagem6 from "../../img/projetos/voluntario.jpg";
+
 export default function Projetos() {
   return (
     <div className="min-h-screen">
