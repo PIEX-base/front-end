@@ -5,6 +5,7 @@ import { HandAndHeartSVG } from "../../img/home/handAndHeart";
 import { HandShakeSVG } from "../../img/home/handShake";
 import { HeartShapedHandSVG } from "../../img/home/heartShapedHand";
 
+
 export const Index = () => {
   return (
     <div className="min-h-screen">
@@ -76,12 +77,14 @@ export const Index = () => {
               </div>
               <h2 className="text-3xl font-bold mb-4">História</h2>
               <p className="text-gray-800 leading-relaxed">
+
                 A Base surgiu no ano de 2015, com o movimento Primitivos.
                 inicialmente com o mesmo nome. A intenção era desenvolver
                 projetos com princípios de igualdade, unidade, perdão e
                 reconciliação, hospitalidade aos que sofrem e contracultura
                 sexual. Tendo como foco comunidades em situação de
                 vulnerabilidade. H
+
               </p>
             </div>
 
@@ -92,11 +95,13 @@ export const Index = () => {
               </div>
               <h2 className="text-3xl font-bold mb-4">Atualmente</h2>
               <p className="text-gray-800 leading-relaxed">
+
                 A Base é uma ONG, sem fins lucrativos e sem cunho político
                 partidário que atua como um braço social da A Igreja do Brasil.
                 É uma extensão das missões realizada pela igreja, atendendo com
                 maior prioridade a Comunidade do Reino, sendo o seu principal
                 foco projetos com crianças e adolescentes.
+
               </p>
             </div>
           </div>
@@ -273,7 +278,9 @@ export const Index = () => {
                 />
                 <span className="text-xl font-bold text-gray-900">A.R.D.O</span>
               </div>
+
             </div>
+          </div>
           </div>
         </div>
       </section>

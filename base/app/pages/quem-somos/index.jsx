@@ -12,10 +12,10 @@ export const QuemSomos = () => {
           <div className="md:w-1/2 order-2 md:order-1">
             <h2 className="text-3xl font-bold mb-4">Nossa missão</h2>
             <p className="text-lg">
-              Somos uma ONG não governamental que busca servir a cidade de Juiz
-              de Fora em Minas Gerais. Nossa missão é manifestar o Reino de Deus
-              através do serviço social, esporte e educação, criando
-              oportunidades para crianças e jovens de comunidades.
+            Servir a Comunidade do Reino com ações práticas de amor e cuidado, oferecendo 
+atividades que promovemo desenvolvimento integral de crianças e famílias : 
+como esportes, música, discipulado, educação e terapia com o objetivo de empoderá-los 
+para que sejam protagonistas de suas histórias e instrumentos de transformação onde vivem.
             </p>
           </div>
           <div className="flex justify-center md:w-1/2 order-1 md:order-2">
@@ -36,26 +36,20 @@ export const QuemSomos = () => {
             />
           </div>
           <div className="md:w-1/2 order-2">
-            <h2 className="text-3xl font-bold mb-4">O que fazemos</h2>
+            <h2 className="text-3xl font-bold mb-4">Qual o nosso propósito?</h2>
             <p className="text-lg">
-              Nossa ONG atende hoje, principalmente, a comunidade do Rato,
-              localizado no bairro Santo Teresinha, proporcionando às crianças e
-              aos adolescentes grandes oportunidades de esporte. Nossos atletas
-              já participaram de várias competições de jiu-jitsu e todos eles
-              trouxeram de volta casa medalhas e a esperança de uma vida melhor.
+            Manifestar o Reino de Deus por meio do serviço, semeando esperança,
+dignidade e propósito na vida das crianças da Comunidade do Reino, 
+acreditando que cada uma carrega em si o potencial para impactar o mundo ao seu redor.
             </p>
           </div>
         </div>
 
         <div className="flex flex-col md:flex-row items-center justify-center gap-8 mb-16">
           <div className="md:w-1/2 order-2 md:order-1">
-            <h2 className="text-3xl font-bold mb-4">Temos também</h2>
+            <h2 className="text-3xl font-bold mb-4">Como atuamos?</h2>
             <p className="text-lg">
-              Nossa ONG atende hoje, principalmente, a comunidade do Rato,
-              localizado no bairro Santo Teresinha, proporcionando às crianças e
-              aos adolescentes grandes oportunidades de esporte. Nossos atletas
-              já participaram de várias competições de jiu-jitsu e todos eles
-              trouxeram de volta casa medalhas e a esperança de uma vida melhor.
+            Nossa ONG atua, principalmente, na comunidade do Rato, situada no bairro Santo Teresinha. Atualmente, 25 famílias são beneficiadas com a entrega regular de cestas básicas. Além disso, oferecemos às crianças e adolescentes diversas oportunidades de desenvolvimento por meio do esporte. Nossos atletas já participaram de várias competições de jiu-jitsu, conquistando medalhas e, acima de tudo, renovando a esperança de um futuro melhor. As famílias atendidas também têm acesso a atendimentos terapêuticos e reforço escolar, ampliando o cuidado e o apoio social que oferecemos.
             </p>
           </div>
           <div className="flex justify-center md:w-1/2 order-1 md:order-2">

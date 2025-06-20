@@ -6,4 +6,5 @@ export default [
   route("projetos", "routes/projetos.jsx"),
   route("doacoes", "routes/doacoes.jsx"),
   route("como-ajudar", "routes/como-ajudar.jsx"),
+
 ] satisfies RouteConfig;
