@@ -1,5 +1,10 @@
 import { Heart, Users, BookOpen, Utensils, Stethoscope, Home } from "lucide-react"
-
+import Imagem1 from "../../img/home/educaBase.jpg";
+import Imagem2 from "../../img/home/educaBase2.jpg"
+import Imagem3 from "../../img/home/alimentos.jpg"
+import Imagem4 from "../../img/home/consultas.jpg"
+import Imagem5 from "../../img/home/judo.jpeg"
+import Imagem6 from "../../img/home/voluntario.jpg"
 export default function Projetos() {
   return (
     <div className="min-h-screen">
@@ -31,7 +36,7 @@ export default function Projetos() {
             <div className="col-span-1">
               <div>
                 <img
-                  src="/placeholder.svg?height=400&width=500"
+                  src={Imagem1}
                   alt="Crianças em atividades dos projetos"
                   className="w-full h-auto rounded-lg"
                 />
@@ -66,7 +71,7 @@ export default function Projetos() {
               </div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">Alimentação Solidária</h3>
               <p className="text-gray-800 leading-relaxed">
-                Distribuição de cestas básicas e refeições nutritivas para famílias em situação de vulnerabilidade,
+                Distribuição de cestas básicas para as famílias da Comunidade do Reino,
                 garantindo segurança alimentar e nutricional.
               </p>
             </div>
@@ -76,10 +81,10 @@ export default function Projetos() {
               <div className="flex justify-center mb-6">
                 <Stethoscope size={80} className="text-gray-800" />
               </div>
-              <h3 className="text-2xl font-bold mb-4 text-gray-900">Cuidados de Saúde</h3>
+              <h3 className="text-2xl font-bold mb-4 text-gray-900">Cuidados Terapêuticos</h3>
               <p className="text-gray-800 leading-relaxed">
-                Atendimento médico básico, campanhas de vacinação e orientações sobre saúde preventiva para toda a
-                comunidade.
+              Realização de cuidados terapêuticos para as crianças e adutos,
+proporcionando bem-estar físico, emocional e promoção da saúde integral.
               </p>
             </div>
           </div>
@@ -96,8 +101,8 @@ export default function Projetos() {
             <div className="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow">
               <div className="mb-4">
                 <img
-                  src="/placeholder.svg?height=200&width=300"
-                  alt="Projeto Biblioteca Comunitária"
+                  src={Imagem2}
+                  alt="Projeto Educa Base"
                   className="w-full h-48 object-cover rounded-lg"
                 />
               </div>
@@ -105,19 +110,18 @@ export default function Projetos() {
                 <BookOpen size={24} className="text-yellow-500 mr-2" />
                 <span className="text-sm font-medium text-gray-600">EDUCAÇÃO</span>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-2">Biblioteca Comunitária</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Educa Base</h3>
               <p className="text-gray-600 text-sm mb-4">
-                Espaço de leitura e estudo para crianças e jovens da comunidade, promovendo o hábito da leitura.
-              </p>
-              <button className="text-yellow-600 font-medium text-sm hover:text-yellow-700">Saiba mais →</button>
+              Atendimento de reforço escolar para crianças e jovens da comunidade,
+oferecendo apoio no aprendizado e fortalecendo o desempenho escolar.              </p>
             </div>
 
             {/* Project Card 2 */}
             <div className="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow">
               <div className="mb-4">
                 <img
-                  src="/placeholder.svg?height=200&width=300"
-                  alt="Projeto Horta Comunitária"
+                  src={Imagem3}
+                  alt="Projeto de cestas básicas"
                   className="w-full h-48 object-cover rounded-lg"
                 />
               </div>
@@ -125,39 +129,19 @@ export default function Projetos() {
                 <Utensils size={24} className="text-green-500 mr-2" />
                 <span className="text-sm font-medium text-gray-600">ALIMENTAÇÃO</span>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-2">Horta Comunitária</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Arrecadação de Alimentos</h3>
               <p className="text-gray-600 text-sm mb-4">
-                Cultivo de alimentos orgânicos pela própria comunidade, promovendo sustentabilidade e alimentação
-                saudável.
+              Campanhas de arrecadação de alimentos para montagem de cestas básicas,
+mobilizando a comunidade em ações de solidariedade e combate à fome.
               </p>
-              <button className="text-yellow-600 font-medium text-sm hover:text-yellow-700">Saiba mais →</button>
             </div>
+
 
             {/* Project Card 3 */}
             <div className="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow">
               <div className="mb-4">
                 <img
-                  src="/placeholder.svg?height=200&width=300"
-                  alt="Projeto Oficinas de Arte"
-                  className="w-full h-48 object-cover rounded-lg"
-                />
-              </div>
-              <div className="flex items-center mb-3">
-                <Heart size={24} className="text-pink-500 mr-2" />
-                <span className="text-sm font-medium text-gray-600">CULTURA</span>
-              </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-2">Oficinas de Arte</h3>
-              <p className="text-gray-600 text-sm mb-4">
-                Atividades artísticas e culturais para desenvolvimento da criatividade e expressão das crianças.
-              </p>
-              <button className="text-yellow-600 font-medium text-sm hover:text-yellow-700">Saiba mais →</button>
-            </div>
-
-            {/* Project Card 4 */}
-            <div className="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow">
-              <div className="mb-4">
-                <img
-                  src="/placeholder.svg?height=200&width=300"
+                  src={Imagem4}
                   alt="Projeto Apoio Familiar"
                   className="w-full h-48 object-cover rounded-lg"
                 />
@@ -170,35 +154,14 @@ export default function Projetos() {
               <p className="text-gray-600 text-sm mb-4">
                 Orientação e suporte psicossocial para famílias em situação de vulnerabilidade social.
               </p>
-              <button className="text-yellow-600 font-medium text-sm hover:text-yellow-700">Saiba mais →</button>
             </div>
 
-            {/* Project Card 5 */}
+            {/* Project Card 4 */}
             <div className="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow">
               <div className="mb-4">
                 <img
-                  src="/placeholder.svg?height=200&width=300"
-                  alt="Projeto Capacitação Profissional"
-                  className="w-full h-48 object-cover rounded-lg"
-                />
-              </div>
-              <div className="flex items-center mb-3">
-                <Home size={24} className="text-purple-500 mr-2" />
-                <span className="text-sm font-medium text-gray-600">CAPACITAÇÃO</span>
-              </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-2">Capacitação Profissional</h3>
-              <p className="text-gray-600 text-sm mb-4">
-                Cursos e oficinas profissionalizantes para jovens e adultos, promovendo autonomia e geração de renda.
-              </p>
-              <button className="text-yellow-600 font-medium text-sm hover:text-yellow-700">Saiba mais →</button>
-            </div>
-
-            {/* Project Card 6 */}
-            <div className="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow">
-              <div className="mb-4">
-                <img
-                  src="/placeholder.svg?height=200&width=300"
-                  alt="Projeto Esporte e Lazer"
+                  src={Imagem5}
+                  alt="Projeto Esporte"
                   className="w-full h-48 object-cover rounded-lg"
                 />
               </div>
@@ -206,10 +169,10 @@ export default function Projetos() {
                 <Heart size={24} className="text-red-500 mr-2" />
                 <span className="text-sm font-medium text-gray-600">ESPORTE</span>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-2">Esporte e Lazer</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Jiu Jtsu</h3>
               <p className="text-gray-600 text-sm mb-4">
-                Atividades esportivas e recreativas para promover saúde, disciplina e integração social.
-              </p>
+              Aulas de Jiu-Jitsu para crianças e jovens da comunidade,
+promovendo disciplina, autocontrole e desenvolvimento físico saudável.              </p>
               <button className="text-yellow-600 font-medium text-sm hover:text-yellow-700">Saiba mais →</button>
             </div>
           </div>
@@ -237,8 +200,8 @@ export default function Projetos() {
                 <div className="flex justify-center mb-3">
                   <BookOpen size={32} className="text-white" />
                 </div>
-                <div className="text-2xl lg:text-3xl font-bold text-white mb-1">12</div>
-                <div className="text-sm text-gray-300">projetos ativos</div>
+                <div className="text-2xl lg:text-3xl font-bold text-white mb-1">9</div>
+                <div className="text-sm text-gray-300">crianças no Educa Base</div>
               </div>
 
               {/* Beneficiaries */}
@@ -246,8 +209,8 @@ export default function Projetos() {
                 <div className="flex justify-center mb-3">
                   <Users size={32} className="text-white" />
                 </div>
-                <div className="text-2xl lg:text-3xl font-bold text-white mb-1">+150</div>
-                <div className="text-sm text-gray-300">beneficiários diretos</div>
+                <div className="text-2xl lg:text-3xl font-bold text-white mb-1">+120</div>
+                <div className="text-sm text-gray-300">famílias atendidas</div>
               </div>
 
               {/* Volunteers */}
@@ -255,7 +218,7 @@ export default function Projetos() {
                 <div className="flex justify-center mb-3">
                   <Heart size={32} className="text-white" />
                 </div>
-                <div className="text-2xl lg:text-3xl font-bold text-white mb-1">35</div>
+                <div className="text-2xl lg:text-3xl font-bold text-white mb-1">+20</div>
                 <div className="text-sm text-gray-300">voluntários ativos</div>
               </div>
 
@@ -264,7 +227,7 @@ export default function Projetos() {
                 <div className="flex justify-center mb-3">
                   <Home size={32} className="text-white" />
                 </div>
-                <div className="text-2xl lg:text-3xl font-bold text-white mb-1">8</div>
+                <div className="text-2xl lg:text-3xl font-bold text-white mb-1">10</div>
                 <div className="text-sm text-gray-300">anos de impacto</div>
               </div>
             </div>
@@ -297,7 +260,7 @@ export default function Projetos() {
               <div className="flex justify-center lg:justify-center">
                 <div className="w-64 h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden">
                   <img
-                    src="/placeholder.svg?height=320&width=320"
+                    src={Imagem6}
                     alt="Voluntários trabalhando nos projetos"
                     className="w-full h-full object-cover"
                   />
