@@ -27,8 +27,7 @@ export default function Projetos() {
               </h1>
 
               <p className="text-lg text-gray-600 max-w-md">
-                Conheça as iniciativas que transformam vidas na Comunidade do
-                Reino através do amor e cuidado
+              Nossos projetos são voltados para o desenvolvimento social, esportivo e educacional da Comunidade do Reino. Por meio de ações como aulas de Jiu-Jitsu, distribuição de cestas básicas e atividades comunitárias, buscamos transformar vidas, oferecer novas oportunidades e fortalecer os laços de solidariedade entre as famílias atendidas.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4">
@@ -84,14 +83,13 @@ export default function Projetos() {
                 <Utensils size={80} className="text-gray-800" />
               </div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">
-                Alimentação Solidária
+                Cestas Básicas
               </h3>
               <p className="text-gray-800 leading-relaxed">
                 Distribuição de cestas básicas para as famílias da Comunidade do
                 Reino, garantindo segurança alimentar e nutricional.
               </p>
             </div>
-
             {/* Project 3 - Health */}
             <div className="bg-yellow-400 rounded-3xl p-8 text-center">
               <div className="flex justify-center mb-6">
@@ -111,7 +109,7 @@ export default function Projetos() {
       </section>
 
       {/* All Projects Section */}
-      <section className="py-16 lg:py-24 bg-gray-50">
+      <center><section className="py-16 lg:py-24 bg-gray-50">
         <div className="max-w-7xl mx-auto px-6">
           <h2 className="text-3xl lg:text-4xl font-bold text-center text-gray-900 mb-16">
             Todos os Nossos Projetos
@@ -167,7 +165,6 @@ export default function Projetos() {
                 combate à fome.
               </p>
             </div>
-
             {/* Project Card 3 */}
             <div className="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow">
               <div className="mb-4">
@@ -191,7 +188,7 @@ export default function Projetos() {
                 vulnerabilidade social.
               </p>
             </div>
-
+            <br></br>
             {/* Project Card 4 */}
             <div className="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow">
               <div className="mb-4">
@@ -213,13 +210,11 @@ export default function Projetos() {
                 promovendo disciplina, autocontrole e desenvolvimento físico
                 saudável.{" "}
               </p>
-              <button className="text-yellow-600 font-medium text-sm hover:text-yellow-700">
-                Saiba mais →
-              </button>
+              
             </div>
           </div>
         </div>
-      </section>
+      </section></center>
 
       {/* Impact Statistics */}
       <section className="bg-gray-900 py-16 lg:py-24">
