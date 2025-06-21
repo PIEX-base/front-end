@@ -42,7 +42,7 @@ export const Footer = () => {
             <h3 className="text-white font-medium mb-4">Links úteis</h3>
             <ul className="space-y-2 text-white">
               <li>
-                <a href="#" className="hover:underline">
+                <a href="quem-somos" className="hover:underline">
                   Quem somos
                 </a>
               </li>
@@ -57,7 +57,7 @@ export const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:underline">
+                <a href="/doacoes" className="hover:underline">
                   Doações
                 </a>
               </li>

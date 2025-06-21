@@ -3,6 +3,7 @@ import { NavLink } from "react-router";
 export const NavBar = () => {
   return (
     <nav className="hidden md:flex items-center space-x-8">
+
       <NavLink to={"/quem-somos"}>
         <span
           href="#"
@@ -19,11 +20,11 @@ export const NavBar = () => {
         </span>
       </NavLink>
 
-      <NavLink>
+      <NavLink to={"/doacoes"}>
         <span
           href="#"
           className="text-white hover:text-gray-200 hover:underline transition-colors">
-          Atividades
+          Doações
         </span>
       </NavLink>
     </nav>
