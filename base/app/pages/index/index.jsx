@@ -19,8 +19,7 @@ export const Index = () => {
               </h1>
 
               <p className="text-lg text-gray-600 max-w-md">
-                Nós contamos com a sua solidariedade para nos ajudar nesta luta
-              </p>
+              A Base é uma ONG que transforma a realidade de crianças e famílias da Comunidade do Reino, em Juiz de Fora, através do esporte e da solidariedade. Com aulas de Jiu-Jitsu, a iniciativa ensina disciplina, respeito e superação, levando muitas crianças a participarem de campeonatos e conquistarem novas oportunidades. Além disso, a organização realiza a doação de cestas básicas e desenvolve ações sociais que oferecem apoio e esperança para quem mais precisa. Apoiar A Base é fazer parte dessa corrente de cuidado e transformação social.              </p>
 
               <div className="flex flex-col sm:flex-row gap-4 ">
                 <button
@@ -61,6 +60,7 @@ export const Index = () => {
               <div className="flex justify-center mb-6">
                 <HandAndHeartSVG />
               </div>
+              <h2 className="text-3xl font-bold mb-4">A Base</h2>
               <p className="text-gray-800 leading-relaxed">
                 Nós da A Base queremos ser agentes de transformação na
                 Comunidade do Reino, revelando o amor de Deus e promovendo uma
@@ -256,25 +256,24 @@ export const Index = () => {
       </section>
 
       {/* Partners */}
-      <section className="py-16 lg:py-24">
-        <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-3xl lg:text-4xl font-bold text-center text-gray-900 mb-16">
-            Nossos parceiros
-          </h2>
+<section className="py-16 lg:py-24">
+  <div className="max-w-7xl mx-auto px-6">
+    <h2 className="text-3xl lg:text-4xl font-bold text-center text-gray-900 mb-16">
+      Nossos parceiros
+    </h2>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center justify-items-center">
-            {/* Partner 1 */}
-            <div className="flex items-center space-x-3">
-              <img
-                src={logoArdo}
-                alt="Logo Parceiro"
-                className="w-8 h-8 object-contain"
-              />
-              <span className="text-xl font-bold text-gray-900">A.R.D.O</span>
-            </div>
-          </div>
-        </div>
-      </section>
+    <div className="flex justify-center">
+      <div className="flex items-center space-x-3">
+        <img
+          src={logoArdo}
+          alt="Logo Parceiro"
+          className="w-12 h-12 object-contain"
+        />
+        <span className="text-xl font-bold text-gray-900">A.R.D.O</span>
+      </div>
+    </div>
+  </div>
+</section>
     </div>
   );
 };
