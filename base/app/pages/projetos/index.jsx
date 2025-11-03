@@ -16,11 +16,9 @@ import Imagem6 from "../../img/projetos/voluntario.jpg";
 export default function Projetos() {
   return (
     <div className="min-h-screen">
-      {/* Hero Section */}
       <main className="relative">
         <div className="max-w-5xl mx-auto px-6 py-16 lg:py-24">
           <div className="grid lg:grid-cols-2 gap-12">
-            {/* Left Content */}
             <div className="space-y-8">
               <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-900 leading-tight">
                 Nossos Projetos
@@ -40,7 +38,6 @@ export default function Projetos() {
               </div>
             </div>
 
-            {/* Right Content - Image */}
             <div className="col-span-1">
               <div>
                 <img
@@ -54,7 +51,6 @@ export default function Projetos() {
         </div>
       </main>
 
-      {/* Featured Projects Section */}
       <section className="py-16 lg:py-24">
         <div className="max-w-7xl mx-auto px-6">
           <h2 className="text-3xl lg:text-4xl font-bold text-center text-gray-900 mb-16">
@@ -62,7 +58,6 @@ export default function Projetos() {
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8">
-            {/* Project 1 - Education */}
             <div className="bg-yellow-400 rounded-3xl p-8 text-center">
               <div className="flex justify-center mb-6">
                 <BookOpen size={80} className="text-gray-800" />
@@ -247,7 +242,6 @@ export default function Projetos() {
                 </div>
               </div>
 
-              {/* Beneficiaries */}
               <div className="text-center">
                 <div className="flex justify-center mb-3">
                   <Users size={32} className="text-white" />
@@ -258,7 +252,6 @@ export default function Projetos() {
                 <div className="text-sm text-gray-300">famílias atendidas</div>
               </div>
 
-              {/* Volunteers */}
               <div className="text-center">
                 <div className="flex justify-center mb-3">
                   <Heart size={32} className="text-white" />
@@ -277,9 +270,7 @@ export default function Projetos() {
                 <div className="text-2xl lg:text-3xl font-bold text-white mb-1">
                   10
                 </div>
-                <div className="text-2xl lg:text-3xl font-bold text-white mb-1">
-                  10
-                </div>
+        
 
                 <div className="text-sm text-gray-300">anos de impacto</div>
               </div>
@@ -288,12 +279,10 @@ export default function Projetos() {
         </div>
       </section>
 
-      {/* Call to Action */}
       <section className="py-16 lg:pt-20 lg:pb-8">
         <div className="max-w-7xl mx-auto px-6">
           <div className="bg-yellow-400 rounded-3xl p-8 lg:p-12">
             <div className="grid lg:grid-cols-2 gap-8 items-center">
-              {/* Left Content */}
               <div className="space-y-6 flex flex-col items-center lg:items-start">
                 <h2 className="text-3xl lg:text-4xl font-bold text-gray-900">
                   Faça parte dos nossos projetos
@@ -312,7 +301,6 @@ export default function Projetos() {
                 </div>
               </div>
 
-              {/* Right Content - Image */}
               <div className="flex justify-center lg:justify-center">
                 <div className="w-64 h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden">
                   <img
