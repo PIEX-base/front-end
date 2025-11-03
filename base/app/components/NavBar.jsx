@@ -27,6 +27,8 @@ export const NavBar = () => {
           Doações
         </span>
       </NavLink>
+
+      
     </nav>
   );
 };

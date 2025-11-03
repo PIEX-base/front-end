@@ -73,7 +73,6 @@ export const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-white font-medium mb-4">Onde estamos</h3>
             <div className="text-white">
-              {/* Avenida Brasil,6955, Juiz de Fora 36080068 */}
               <p className="mb-2">Avenida Brasil, 6955</p>
               <p className="mb-2">Mariano Procópio</p>
               <p className="mb-2">Juiz de Fora/MG</p>
